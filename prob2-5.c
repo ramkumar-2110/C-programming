@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int x;
+    int x ,y;
     printf("Enter the Number: ");
     scanf("%d", &x);
-    x < 50  && printf("Result = 1\n");
-    x > 50 && printf("Result = 0\n");
+    y=x%10;
+    x/=10;
+    y<x && printf("Result = 1");
+    y>x && printf("Result = 0");
     return 0;
 }
