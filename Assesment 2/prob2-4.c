@@ -1,12 +1,12 @@
+//Get a number from the user and check if the number is greater than 50. If yes, then print 1; otherwise, print 0
+
 #include <stdio.h>
 
 int main() {
-    int x ,y;
+    int x;
     printf("Enter the Number: ");
     scanf("%d", &x);
-    y=x%10;
-    x/=10;
-    y==x && printf("Result = 1");
-    y!=x && printf("Result = 0");
+    x > 50  && printf("Result = 1\n");
+    x < 50 && printf("Result = 0\n");
     return 0;
 }
