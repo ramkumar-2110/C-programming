@@ -1,3 +1,5 @@
+//Get a two-digit number from user and print the reverse of the number.
+
 #include<stdio.h>
 
 int main()

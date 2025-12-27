@@ -1,3 +1,5 @@
+//Get a three-digit number from the user and make the ten's digit as 0, then print it.
+
 #include<stdio.h>
 
 int main()
