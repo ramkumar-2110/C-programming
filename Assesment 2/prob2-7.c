@@ -1,4 +1,4 @@
-//Get a two-digit number from the user and check if the digit 0 and digit 1 are identical. If yes, print 1; otherwise, print 0
+//Get a two-digit number from the user and check if the digit 0 and digit 1 are identical. If yes, print 1; otherwise, print 0//
 
 #include <stdio.h>
 
