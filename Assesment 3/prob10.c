@@ -1,4 +1,4 @@
-/*Get a two-digit number from the user and check if the digit 0 and digit 1 are identical.
+/*Get a two-digit number from the user and check if the digit 0 is greater than the digit 1.
 If yes, print "Success"; otherwise, print "Failure"*/
 
 #include<stdio.h>
@@ -10,7 +10,7 @@ int main()
     scanf("%d",&x);
     y=x%10;
     x/=10;
-    if(y==x){
+    if(y>x){
         printf("Success");
     }
     else{

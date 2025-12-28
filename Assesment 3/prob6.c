@@ -1,13 +1,14 @@
-#include<stdio.h>
+/*Get a number from the user and check if the number is greater than or equal to 50.
+If yes, then print "Success"; otherwise, print "Failure"*/
+
+ #include<stdio.h>
 
 int main()
 {
-    int x,y;
+    int x;
     printf("Enter a number : ");
     scanf("%d",&x);
-    y=x%10;
-    x/=10;
-    if(x<=y){
+    if(x>=50){
         printf("Success");
     }
     else{
