@@ -1,3 +1,5 @@
+//Write a loop program to print the two-digit even numbers, who's sum of digits are 6.
+
 #include<stdio.h>
 
 int main()

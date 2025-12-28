@@ -1,3 +1,5 @@
+//Write a loop program to print the two-digit odd numbers, who's sum of digits are 7.
+
 #include<stdio.h>
 
 int main()

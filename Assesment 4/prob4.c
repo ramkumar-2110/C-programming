@@ -1,3 +1,5 @@
+//Write a loop program to print sum of 6 to 1
+
 #include<stdio.h>
 
 int main()

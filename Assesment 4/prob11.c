@@ -1,3 +1,5 @@
+//Write a program to get a number from user and print the sum of all digits.
+
 #include<stdio.h>
 
 int main()

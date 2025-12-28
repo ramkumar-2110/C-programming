@@ -1,3 +1,5 @@
+//Write a loop program to print the two-digit odd numbers, below 20.
+
 #include<stdio.h>
 
 int main()
