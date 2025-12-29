@@ -1,28 +1,23 @@
 //Write a program to get a number from user and interchange the first and last digits and print the result.
 
 #include <stdio.h>
-#include <math.h>
 
-int main() {
-    int num, first=10, last=10, digits=0, middle=10, result=10,x;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    x=num;
-    loop:if(x>9)
+int main()
+{
+    int n, temp, last, digits = 1, middle;
+    scanf("%d", &n);
+
+    temp = n;
+    last = n % 10;
+loop:
+    if (temp >= 10)
     {
-        x/=10;
-        digits+=1;
+        temp = temp / 10;
+        digits = digits * 10;
         goto loop;
     }
-    last = num % 10;                      
-    first = num / pow(10, digits); 
 
-    middle = num % (int)pow(10, digits); 
-    middle = middle / 10;                
-
-    result = last * pow(10, digits) + middle * 10 + first;
-
-    printf("Result = %d\n", result);
-
-    return 0;
+    middle = (n % digits) / 10;
+    n = last * digits + middle * 10 + temp;
+    printf("%d", n);
 }
