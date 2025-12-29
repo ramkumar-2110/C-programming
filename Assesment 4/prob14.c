@@ -1,34 +1,32 @@
 /*Write a program to get a number from user and if the last digit
 of the number is even print the same number. If the last digit of
 the number is odd, then subtract 1 from the last digit and print
-the number. (Note: Last digit -MSB)*/
+the number. (Note: Last digit -MSB)
+Answer:
+Input: 654324         Output - 654324
+Input: 76895439       Output - 66895439
+Input: 675            Output - 575*/
 
-#include<stdio.h>
-#include<math.h>
-
+#include <stdio.h>
 int main()
 {
- int x,y=0,num,done=0;
- printf("Enter a number : ");
- scanf("%d",&x);
- num=x;
- loop:if(x>9)
+    int n, a, c,l, d = 1,r;
+    scanf("%d", &n);
+    a = n;
+    l = n % 10;
+    if(l%2 == 0)
     {
-        x/=10;
-        y+=1;
+     loop : if (a >= 10)
+       { a = a / 10;
+        d = d * 10;
         goto loop;
+       }
+       a=a-1;
+       c=n%d;
+       r=a*d+c;
+       printf("%d",r);
     }
- if((num%10)%2==1)
- {
-    done=1;
-    x=num/pow(10,y);
-    x-=1;
-    x*=pow(10,y);
-    x+=num%(int)pow(10,y);
- }
- if(done==1)
- printf("Result = %d",x);
+    else
+    printf("%d",n);
 
- else
- printf("Result = %d",num);
 }

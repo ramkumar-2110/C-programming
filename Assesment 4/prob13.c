@@ -4,20 +4,20 @@
 
 int main()
 {
-    int n, temp, last, digits = 1, middle;
+    int n, a, b, count = 1, c;
     scanf("%d", &n);
 
-    temp = n;
-    last = n % 10;
+    a = n;
+    b = n % 10;
 loop:
-    if (temp >= 10)
+    if (a >= 10)
     {
-        temp = temp / 10;
-        digits = digits * 10;
+        a = a / 10;
+        count = count * 10;
         goto loop;
     }
 
-    middle = (n % digits) / 10;
-    n = last * digits + middle * 10 + temp;
+    c = (n % count) / 10;
+    n = b * count + c * 10 + a;
     printf("%d", n);
 }

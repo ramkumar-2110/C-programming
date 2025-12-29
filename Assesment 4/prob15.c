@@ -12,11 +12,6 @@ int main()
     printf("Prime");
     return 0;
  } 
- if(x%2==0)
- {
-   printf("Not Prime");
-   return 0; 
- }
  int y=2;
  loop:if(y<x) 
  {
