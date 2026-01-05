@@ -7,7 +7,8 @@ Input: 567    Output: 0  */
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int x ,y;
     printf("Enter the Number: ");
     scanf("%d", &x);

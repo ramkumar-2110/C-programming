@@ -4,7 +4,8 @@ If yes, print 1; otherwise, print 0*///
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int x ,y;
     printf("Enter the Number: ");
     scanf("%d", &x);
