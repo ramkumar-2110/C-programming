@@ -25,4 +25,4 @@ To understand how loops work internally by recreating looping logic using
 - C Programming
 
 ##  Author
-- Ram Kumar
+- Ramkumar
