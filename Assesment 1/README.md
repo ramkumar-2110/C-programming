@@ -23,4 +23,4 @@ _(All program names correspond to problem numbers from the assignment.)_
 - C Programming
 
 ##  Author
-- Ram Kumar
+- Ramkumar
