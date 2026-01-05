@@ -21,4 +21,4 @@ conditional statements**.
 - C Programming
 
 ##  Author
-- Ram Kumar
+- Ramkumar
