@@ -30,6 +30,7 @@ int main()
 
    if(a!=14)
    printf("Not Prime & Sum of Digits is not 14");
+   return 0;
  }
  if(x%i!=0)
  {
@@ -43,5 +44,6 @@ int main()
 
    if(a!=14)
    printf("Prime & sum of digits is not 14");
+   return 0;
  }
 }

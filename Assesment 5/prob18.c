@@ -15,10 +15,10 @@ int main(){
     {
         if(y%i==0)
         {
-            printf("not a prime");
+            printf("Not prime");
             return 0;
         }
     }
-    printf("is a prime");
+    printf("Prime");
     return 0;
 }
