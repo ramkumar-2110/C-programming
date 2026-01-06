@@ -20,4 +20,4 @@ and how returned results can be used in other parts of a program.
 - C Programming
 
 ## Author
-- Ram Kumar
+- Ramkumar
