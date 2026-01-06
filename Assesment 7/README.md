@@ -19,4 +19,4 @@ returning any value**, and how they help in organizing and simplifying programs.
 - C Programming
 
 ## Author
-- Ram Kumar
+- Ramkumar
