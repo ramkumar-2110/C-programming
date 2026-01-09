@@ -7,14 +7,17 @@ int main()
 {
     int i=0;
     char input[100];
-    gets(input);
+    fgets(input,100,stdin);
     if(strlen(input)>0)
     {
         i=1;
     }
     else 
         i=0;
-    for(int j;j<strlen(input);j++)
+
+    int a;
+    a=strlen(input);
+    for(int j=0;j<a;j++)
     {
         if(input[j]==' ')
         {
